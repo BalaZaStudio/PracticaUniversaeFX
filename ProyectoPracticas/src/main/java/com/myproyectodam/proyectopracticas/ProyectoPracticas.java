@@ -1,14 +1,15 @@
-
-
 package com.myproyectodam.proyectopracticas;
 
 /**
  *
- * @author zabal
+ * @author zabadev
  */
 public class ProyectoPracticas {
 
     public static void main(String[] args) {
-        System.out.println("Hello World! Miguel");
+
+        PantallaPrincipal princ = new PantallaPrincipal();
+        princ.setVisible(true);
+        princ.setLocationRelativeTo(null);
     }
 }
