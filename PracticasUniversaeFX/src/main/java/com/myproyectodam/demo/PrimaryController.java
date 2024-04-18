@@ -13,7 +13,7 @@ import javafx.scene.paint.Color;
 
 public class PrimaryController {
 
-    private final String soundEffectPath = "file:///C:/Users/zabal/Documents/NetBeansProjects/UniversaePracticas/PracticasUniversaeFX/src/main/resources/Sonidos/click.mp3";
+    private final String soundEffectPath = "file:///C:/Users/zabal/Documents/GitHub/PracticaUniversaeFX/PracticasUniversaeFX/src/main/resources/Sonidos/click.mp3";
 
     @FXML
     private void switchToSecondary() throws IOException {
