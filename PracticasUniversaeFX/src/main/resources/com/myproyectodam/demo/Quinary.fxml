@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myproyectodam.demo.SecondaryController">
+   <children>
+      <ImageView blendMode="SRC_ATOP" cache="true" cacheHint="SPEED" fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazBase/FondoBase.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </ImageView>
+      <Button layoutX="140.0" layoutY="753.0" mnemonicParsing="false" onMouseClicked="#exit" text="Salir" />
+      <Pane fx:id="PanelLogo" layoutX="104.0" layoutY="3.0" onMouseClicked="#logo" opacity="0.0" prefHeight="151.0" prefWidth="143.0" />
+      <ImageView fitHeight="477.0" fitWidth="977.0" layoutX="650.0" layoutY="270.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazGame/Cuadrado%20fondo%20enfocado.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="PaneSlider" layoutX="730.0" layoutY="250.0" prefHeight="517.0" prefWidth="826.0">
+         <children>
+            <AnchorPane fx:id="pane1" accessibleRole="SLIDER" prefHeight="517.0" prefWidth="826.0">
+               <children>
+                  <ImageView fitHeight="517.0" fitWidth="826.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <image>
+                        <Image url="@../../../InterfazGame/Miniaturas/EPIS/EPIS0.png" />
+                     </image></ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="pane2" accessibleRole="SLIDER" prefHeight="517.0" prefWidth="826.0">
+               <children>
+                  <ImageView fitHeight="517.0" fitWidth="826.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../../InterfazGame/Miniaturas/EPIS/EPIS1.png" />
+                     </image></ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="pane3" accessibleRole="SLIDER" prefHeight="517.0" prefWidth="826.0">
+               <children>
+                  <ImageView fitHeight="517.0" fitWidth="826.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../../InterfazGame/Miniaturas/EPIS/EPIS2.png" />
+                     </image></ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="pane4" accessibleRole="SLIDER" prefHeight="517.0" prefWidth="826.0">
+               <children>
+                  <ImageView fitHeight="517.0" fitWidth="826.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../../InterfazGame/Miniaturas/EPIS/EPIS3.png" />
+                     </image></ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="pane5" accessibleRole="SLIDER" prefHeight="517.0" prefWidth="826.0">
+               <children>
+                  <ImageView fitHeight="517.0" fitWidth="826.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../../InterfazGame/Miniaturas/EPIS/EPIS4.png" />
+                     </image></ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </Pane>
+      <ImageView fx:id="back" fitHeight="75.0" fitWidth="29.0" layoutX="609.0" layoutY="485.0" onMouseClicked="#back" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazGame/Flecha%20izquierda.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="next" fitHeight="75.0" fitWidth="29.0" layoutX="1648.0" layoutY="485.0" onMouseClicked="#next" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazGame/Flecha%20derecha.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="92.0" fitWidth="200.0" layoutX="1663.0" layoutY="988.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazGame/Comenzar.png" />
+         </image>
+      </ImageView>
+      <FlowPane alignment="CENTER" columnHalignment="CENTER" layoutX="367.0" layoutY="70.0" prefHeight="128.0" prefWidth="1552.0">
+         <children>
+            <ImageView fx:id="Icon13" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazBase/Escudos/LauncherButton12.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Icon7" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazBase/Escudos/LauncherButton6.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Icon6" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazBase/Escudos/LauncherButton5.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Icon5" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazBase/Escudos/LauncherButton4.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Icon4" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazBase/Escudos/LauncherButton3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Icon0" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazBase/Escudos/LauncherButton8.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Icon12" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazBase/Escudos/LauncherButton11.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Icon8" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazBase/Escudos/LauncherButton7.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Icon9" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazBase/Escudos/LauncherButton13.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Icon10" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazBase/Escudos/LauncherButton9.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Icon2" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazBase/Escudos/LauncherButton1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Icon11" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazBase/Escudos/LauncherButton10.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Icon1" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazBase/Escudos/LauncherButton0.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Icon3" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazBase/Escudos/LauncherButton2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </FlowPane>
+      <ImageView fitHeight="46.0" fitWidth="7.0" layoutX="425.0" layoutY="787.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../../../Mi%20Diseño/InterfazGame/Barrita%20aislada%20descripción.png" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="432.0" layoutY="848.0" opacity="0.0" prefHeight="200.0" prefWidth="985.0" />
+      <Label layoutX="441.0" layoutY="785.0" prefHeight="46.0" prefWidth="854.0" />
+   </children>
+</Pane>
