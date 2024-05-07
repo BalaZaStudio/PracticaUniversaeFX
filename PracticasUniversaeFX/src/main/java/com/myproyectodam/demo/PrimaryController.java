@@ -1,19 +1,19 @@
 package com.myproyectodam.demo;
 
+import java.io.File;
 import java.io.IOException;
+import java.net.URI;
 import javafx.animation.ScaleTransition;
 import javafx.fxml.FXML;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.util.Duration;
 import javafx.scene.effect.DropShadow;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
 import javafx.scene.paint.Color;
 
 public class PrimaryController {
 
-    private final String soundEffectPath = "file:///C:/Users/zabal/Documents/GitHub/PracticaUniversaeFX/PracticasUniversaeFX/src/main/resources/Sonidos/click.mp3";
+    private final String soundEffectPath = "src/main/resources/Sonidos/click.mp3";
 
     @FXML
     private void switchToSecondary() throws IOException {
@@ -51,10 +51,15 @@ public class PrimaryController {
         App.setRoot("Septenary");
     }
 
-    private void playSoundEffect() {
-        Media sound = new Media(soundEffectPath);
-        MediaPlayer mediaPlayer = new MediaPlayer(sound);
-        mediaPlayer.play();
+    public void playSoundEffect() {
+        try {
+            File file = new File(soundEffectPath);
+            URI uri = file.toURI();
+            javafx.scene.media.Media media = new javafx.scene.media.Media(uri.toString());
+            javafx.scene.media.MediaPlayer mediaPlayer = new javafx.scene.media.MediaPlayer(media);
+            mediaPlayer.play();
+        } catch (Exception e) {
+        }
     }
 
     @FXML

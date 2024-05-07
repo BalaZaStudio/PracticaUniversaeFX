@@ -22,6 +22,8 @@ public class App extends Application {
         stage.initStyle(StageStyle.UNDECORATED);
         stage.setAlwaysOnTop(true);
         stage.setScene(scene);
+        // Ocupar toda la pantalla
+        stage.setFullScreen(true);
         stage.show();
     }
 
