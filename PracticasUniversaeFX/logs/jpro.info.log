@@ -1,0 +1,294 @@
+2024-11-23 18:40:10,786 [INFO] from com.jpro.activity in scala-execution-context-global-35 - Starting the server
+2024-11-23 18:40:10,798 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 -  *** Starting JPro: https://www.jpro.one/ ***
+2024-11-23 18:40:10,798 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - OS: Windows 10
+2024-11-23 18:40:10,876 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JPro: 2024.4.1
+2024-11-23 18:40:10,876 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - Java version: 22.0.2
+2024-11-23 18:40:10,876 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JVM: 22.0.2 Oracle Corporation
+2024-11-23 18:40:10,884 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JavaFX jar: file:/C:/Users/ZaBaDeV/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro/javafx-graphics-23.0.1-jpro-win.jar
+2024-11-23 18:40:10,889 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - Configuring logging from url: 'jar:file:/C:/Users/ZaBaDeV/.m2/repository/one/jpro/jpro-server_2.12/2024.4.1/jpro-server_2.12-2024.4.1.jar!/logback-jpro-default.xml'
+2024-11-23 18:40:13,293 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 23.0.1-jpro+0
+2024-11-23 18:40:13,494 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - finished init!
+2024-11-23 18:40:13,499 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - [JPro] -> Server started: {start_time: 1732383610784, os_name: Windows 10, jpro_version: 2024.4.1}
+2024-11-23 18:40:14,160 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2024-11-23 18:40:16,299 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2024-11-23 18:40:18,287 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2024-11-23 18:40:18,289 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2024-11-23 18:40:25,119 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - application requested: default params: Map()
+2024-11-23 18:40:25,137 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - Creating Application: default
+2024-11-23 18:40:25,149 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - remoteAddress 0:0:0:0:0:0:0:1
+2024-11-23 18:40:25,149 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - host          localhost:8080
+2024-11-23 18:40:25,149 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - uri           /app/ws/default
+2024-11-23 18:40:29,778 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1213850210, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2024-11-23 18:40:31,775 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1213850210, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2024-11-23 18:40:32,690 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 18:40:33,677 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 18:40:33,716 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unimplemented node type: UnknownPart(NodePart(OwnExtension(ID(410),ID(411),ID(412),ID(413),ID(414),ID(415),ID(416),None,ID(417),ID(418)),ID(419),ID(420),ID(421),ID(422),ID(423),ID(424),ID(425),ID(426),ID(427),ID(428),ID(429),ID(430),ID(431),ID(432),ID(433),ID(434)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase) (id: 435 token: UnknownPart(NodePart(OwnExtension(ID(410),ID(411),ID(412),ID(413),ID(414),ID(415),ID(416),None,ID(417),ID(418)),ID(419),ID(420),ID(421),ID(422),ID(423),ID(424),ID(425),ID(426),ID(427),ID(428),ID(429),ID(430),ID(431),ID(432),ID(433),ID(434)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase))
+2024-11-23 18:40:38,979 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 18:40:40,705 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1213850210, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2024-11-23 18:40:40,712 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2024-11-23 18:40:40,712 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2024-11-23 18:40:40,725 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Sat Nov 23 18:40:40 CET 2024      
+2024-11-23 18:40:40,727 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.038 
+2024-11-23 18:40:40,727 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.052  
+2024-11-23 18:40:40,728 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2024-11-23 18:40:40,730 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2024-11-23 18:40:40,730 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 187129
+2024-11-23 18:40:40,730 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 48365
+2024-11-23 18:40:40,731 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2024-11-23 18:40:41,701 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1213850210, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2024-11-23 18:40:45,171 [INFO] from com.jpro.internal.server.JProInitializer$ in Thread-10 - Parent process is not alive anymore. Shutting down.
+2024-11-23 18:40:45,175 [INFO] from play.api.internal.libs.concurrent.CoordinatedShutdownSupport in Thread-23 - Starting synchronous coordinated shutdown with ServerStoppedReason reason and 2147508000 milliseconds timeout
+2024-11-23 18:40:45,180 [INFO] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-12 - Running CoordinatedShutdown with reason [ServerStoppedReason]
+2024-11-23 18:40:45,182 [INFO] from play.core.server.AkkaHttpServer in Thread-23 - Stopping Akka HTTP server...
+2024-11-23 18:40:45,194 [INFO] from play.core.server.AkkaHttpServer in application-akka.actor.internal-dispatcher-14 - Terminating server binding for /[0:0:0:0:0:0:0:0]:8080
+2024-11-23 18:40:45,217 [INFO] from play.core.server.AkkaHttpServer in application-akka.actor.internal-dispatcher-4 - Running provided shutdown stop hooks
+2024-11-23 18:40:45,223 [INFO] from com.jpro.internal.server.JProInitializer$ in application-akka.actor.default-dispatcher-5 - [JPro] -> Server stopped: {running_time: 34.381s, instances_count: 0, views_count: 0, os_name: Windows 10, jpro_version: 2024.4.1, reason: jvm-shutdown}
+2024-11-23 18:40:45,223 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-5 - Closing the server -> used memory: 74 MB  -  free system memory: 729 MB
+2024-11-23 18:44:48,190 [INFO] from com.jpro.activity in scala-execution-context-global-35 - Starting the server
+2024-11-23 18:44:48,216 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 -  *** Starting JPro: https://www.jpro.one/ ***
+2024-11-23 18:44:48,216 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - OS: Windows 10
+2024-11-23 18:44:48,248 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JPro: 2024.4.1
+2024-11-23 18:44:48,248 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - Java version: 22.0.2
+2024-11-23 18:44:48,248 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JVM: 22.0.2 Oracle Corporation
+2024-11-23 18:44:48,255 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JavaFX jar: file:/C:/Users/ZaBaDeV/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro/javafx-graphics-23.0.1-jpro-win.jar
+2024-11-23 18:44:48,261 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - Configuring logging from url: 'jar:file:/C:/Users/ZaBaDeV/.m2/repository/one/jpro/jpro-server_2.12/2024.4.1/jpro-server_2.12-2024.4.1.jar!/logback-jpro-default.xml'
+2024-11-23 18:44:50,451 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 23.0.1-jpro+0
+2024-11-23 18:44:50,604 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - finished init!
+2024-11-23 18:44:50,608 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - [JPro] -> Server started: {start_time: 1732383888171, os_name: Windows 10, jpro_version: 2024.4.1}
+2024-11-23 18:44:51,075 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2024-11-23 18:44:52,860 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2024-11-23 18:44:54,474 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2024-11-23 18:44:54,476 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2024-11-23 18:44:58,484 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - application requested: default params: Map()
+2024-11-23 18:44:58,496 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - Creating Application: default
+2024-11-23 18:44:58,502 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - remoteAddress 0:0:0:0:0:0:0:1
+2024-11-23 18:44:58,502 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - host          localhost:8080
+2024-11-23 18:44:58,502 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - uri           /app/ws/default
+2024-11-23 18:45:02,360 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1073994948, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2024-11-23 18:45:03,795 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1073994948, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2024-11-23 18:45:04,463 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 18:45:05,160 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 18:45:05,185 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unimplemented node type: UnknownPart(NodePart(OwnExtension(ID(410),ID(411),ID(412),ID(413),ID(414),ID(415),ID(416),None,ID(417),ID(418)),ID(419),ID(420),ID(421),ID(422),ID(423),ID(424),ID(425),ID(426),ID(427),ID(428),ID(429),ID(430),ID(431),ID(432),ID(433),ID(434)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase) (id: 435 token: UnknownPart(NodePart(OwnExtension(ID(410),ID(411),ID(412),ID(413),ID(414),ID(415),ID(416),None,ID(417),ID(418)),ID(419),ID(420),ID(421),ID(422),ID(423),ID(424),ID(425),ID(426),ID(427),ID(428),ID(429),ID(430),ID(431),ID(432),ID(433),ID(434)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase))
+2024-11-23 18:45:11,646 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 18:45:15,097 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 18:45:15,211 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 18:45:15,219 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unimplemented node type: UnknownPart(NodePart(OwnExtension(ID(3561),ID(3562),ID(3563),ID(3564),ID(3565),ID(3566),ID(3567),None,ID(3568),ID(3569)),ID(3570),ID(3571),ID(3572),ID(3573),ID(3574),ID(3575),ID(3576),ID(3577),ID(3578),ID(3579),ID(3580),ID(3581),ID(3582),ID(3583),ID(3584),ID(3585)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase) (id: 3586 token: UnknownPart(NodePart(OwnExtension(ID(3561),ID(3562),ID(3563),ID(3564),ID(3565),ID(3566),ID(3567),None,ID(3568),ID(3569)),ID(3570),ID(3571),ID(3572),ID(3573),ID(3574),ID(3575),ID(3576),ID(3577),ID(3578),ID(3579),ID(3580),ID(3581),ID(3582),ID(3583),ID(3584),ID(3585)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase))
+2024-11-23 18:45:16,253 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 18:45:18,265 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: Cannot read properties of null (reading 'Y')
+2024-11-23 18:45:41,384 [INFO] from com.jpro.internal.server.JProInitializer$ in Thread-10 - Parent process is not alive anymore. Shutting down.
+2024-11-23 18:45:41,389 [INFO] from play.api.internal.libs.concurrent.CoordinatedShutdownSupport in Thread-23 - Starting synchronous coordinated shutdown with ServerStoppedReason reason and 2147508000 milliseconds timeout
+2024-11-23 18:45:41,393 [INFO] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-5 - Running CoordinatedShutdown with reason [ServerStoppedReason]
+2024-11-23 18:45:41,396 [INFO] from play.core.server.AkkaHttpServer in Thread-23 - Stopping Akka HTTP server...
+2024-11-23 18:45:41,405 [INFO] from play.core.server.AkkaHttpServer in application-akka.actor.internal-dispatcher-18 - Terminating server binding for /[0:0:0:0:0:0:0:0]:8080
+2024-11-23 18:45:41,428 [INFO] from play.core.server.AkkaHttpServer in application-akka.actor.internal-dispatcher-14 - Running provided shutdown stop hooks
+2024-11-23 18:45:41,435 [INFO] from com.jpro.internal.server.JProInitializer$ in application-akka.actor.default-dispatcher-6 - [JPro] -> Server stopped: {running_time: 53.2s, instances_count: 1, views_count: 1, os_name: Windows 10, jpro_version: 2024.4.1, reason: jvm-shutdown}
+2024-11-23 18:45:41,436 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-6 - Closing the server -> used memory: 100 MB  -  free system memory: 469 MB
+2024-11-23 18:48:26,499 [INFO] from com.jpro.activity in scala-execution-context-global-35 - Starting the server
+2024-11-23 18:48:26,508 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 -  *** Starting JPro: https://www.jpro.one/ ***
+2024-11-23 18:48:26,508 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - OS: Windows 10
+2024-11-23 18:48:26,580 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JPro: 2024.4.1
+2024-11-23 18:48:26,581 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - Java version: 22.0.2
+2024-11-23 18:48:26,581 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JVM: 22.0.2 Oracle Corporation
+2024-11-23 18:48:26,587 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JavaFX jar: file:/C:/Users/ZaBaDeV/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro/javafx-graphics-23.0.1-jpro-win.jar
+2024-11-23 18:48:26,591 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - Configuring logging from url: 'jar:file:/C:/Users/ZaBaDeV/.m2/repository/one/jpro/jpro-server_2.12/2024.4.1/jpro-server_2.12-2024.4.1.jar!/logback-jpro-default.xml'
+2024-11-23 18:48:28,963 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 23.0.1-jpro+0
+2024-11-23 18:48:29,128 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - finished init!
+2024-11-23 18:48:29,138 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - [JPro] -> Server started: {start_time: 1732384106497, os_name: Windows 10, jpro_version: 2024.4.1}
+2024-11-23 18:48:29,834 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2024-11-23 18:48:31,750 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2024-11-23 18:48:34,158 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2024-11-23 18:48:34,160 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2024-11-23 18:48:38,759 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - application requested: default params: Map()
+2024-11-23 18:48:38,769 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - Creating Application: default
+2024-11-23 18:48:38,776 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - remoteAddress 0:0:0:0:0:0:0:1
+2024-11-23 18:48:38,776 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - host          localhost:8080
+2024-11-23 18:48:38,776 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - uri           /app/ws/default
+2024-11-23 18:48:42,039 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1904689610, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2024-11-23 18:48:42,754 [ERROR] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Error while starting application: 
+javafx.fxml.LoadException: Pane is not a valid type.
+/C:/Users/ZaBaDeV/Documents/GitHub/PracticaUniversaeFX/PracticasUniversaeFX/target/classes/com/myproyectodam/demo/Primary.fxml:27
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2723)
+	at javafx.fxml.FXMLLoader.createElement(FXMLLoader.java:2925)
+	at javafx.fxml.FXMLLoader.processStartElement(FXMLLoader.java:2855)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2654)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2568)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2536)
+	at com.myproyectodam.demo.App.loadFXML(App.java:60)
+	at com.myproyectodam.demo.App.start(App.java:24)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1(ApplicationStarter.scala:133)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1$adapted(ApplicationStarter.scala:130)
+	at com.jpro.internal.communicator.InstanceImpl.start(InstanceImpl.scala:49)
+	at com.jpro.internal.communicator.InstanceImpl.$anonfun$new$2(InstanceImpl.scala:41)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$lzycompute$1(CoreTimeEvent.scala:147)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$1(CoreTimeEvent.scala:145)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2$adapted(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTypesBindable$BindableImpl.$anonfun$triggerOnChange$3(CoreTypesBindable.scala:208)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl(CoreScheduler.scala:73)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl$(CoreScheduler.scala:52)
+	at simplefx.cores.standard.Core.runSchedulerImpl(Core.scala:9)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop(CoreScheduler.scala:44)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop$(CoreScheduler.scala:42)
+	at simplefx.cores.standard.Core.tryStartSchedulerStop(Core.scala:9)
+	at com.jpro.internal.server.ViewSerializerActor$$anonfun$handleFirstClientMessage$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:74)
+	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-11-23 18:48:42,757 [WARN] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Application didn't show the stage. JPro is now calling show()
+2024-11-23 18:48:42,881 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - WORKAROUND! setting XY for Window null because current XY is NaN
+2024-11-23 18:48:56,671 [INFO] from com.jpro.internal.server.JProInitializer$ in Thread-10 - Parent process is not alive anymore. Shutting down.
+2024-11-23 18:48:56,679 [INFO] from play.api.internal.libs.concurrent.CoordinatedShutdownSupport in Thread-23 - Starting synchronous coordinated shutdown with ServerStoppedReason reason and 2147508000 milliseconds timeout
+2024-11-23 18:48:56,682 [INFO] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-6 - Running CoordinatedShutdown with reason [ServerStoppedReason]
+2024-11-23 18:48:56,683 [INFO] from play.core.server.AkkaHttpServer in Thread-23 - Stopping Akka HTTP server...
+2024-11-23 18:48:56,695 [INFO] from play.core.server.AkkaHttpServer in application-akka.actor.internal-dispatcher-4 - Terminating server binding for /[0:0:0:0:0:0:0:0]:8080
+2024-11-23 18:48:56,719 [INFO] from play.core.server.AkkaHttpServer in application-akka.actor.internal-dispatcher-3 - Running provided shutdown stop hooks
+2024-11-23 18:48:56,725 [INFO] from com.jpro.internal.server.JProInitializer$ in application-akka.actor.default-dispatcher-5 - [JPro] -> Server stopped: {running_time: 30.167s, instances_count: 1, views_count: 1, os_name: Windows 10, jpro_version: 2024.4.1, reason: jvm-shutdown}
+2024-11-23 18:48:56,725 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-5 - Closing the server -> used memory: 54 MB  -  free system memory: 738 MB
+2024-11-23 19:18:22,073 [INFO] from com.jpro.activity in scala-execution-context-global-35 - Starting the server
+2024-11-23 19:18:22,082 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 -  *** Starting JPro: https://www.jpro.one/ ***
+2024-11-23 19:18:22,082 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - OS: Windows 10
+2024-11-23 19:18:22,163 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JPro: 2024.4.1
+2024-11-23 19:18:22,164 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - Java version: 22.0.2
+2024-11-23 19:18:22,164 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JVM: 22.0.2 Oracle Corporation
+2024-11-23 19:18:22,172 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JavaFX jar: file:/C:/Users/ZaBaDeV/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro/javafx-graphics-23.0.1-jpro-win.jar
+2024-11-23 19:18:22,176 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - Configuring logging from url: 'jar:file:/C:/Users/ZaBaDeV/.m2/repository/one/jpro/jpro-server_2.12/2024.4.1/jpro-server_2.12-2024.4.1.jar!/logback-jpro-default.xml'
+2024-11-23 19:18:24,517 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 23.0.1-jpro+0
+2024-11-23 19:18:24,680 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - finished init!
+2024-11-23 19:18:24,685 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - [JPro] -> Server started: {start_time: 1732385902071, os_name: Windows 10, jpro_version: 2024.4.1}
+2024-11-23 19:18:25,256 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2024-11-23 19:18:27,514 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2024-11-23 19:18:29,585 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2024-11-23 19:18:29,587 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2024-11-23 19:18:35,090 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - application requested: default params: Map()
+2024-11-23 19:18:35,104 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - Creating Application: default
+2024-11-23 19:18:35,117 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - remoteAddress 0:0:0:0:0:0:0:1
+2024-11-23 19:18:35,117 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - host          localhost:8080
+2024-11-23 19:18:35,118 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - uri           /app/ws/default
+2024-11-23 19:18:39,372 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1893272059, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2024-11-23 19:18:41,347 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1893272059, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2024-11-23 19:18:42,647 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 19:18:43,449 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 19:18:43,480 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unimplemented node type: UnknownPart(NodePart(OwnExtension(ID(410),ID(411),ID(412),ID(413),ID(414),ID(415),ID(416),None,ID(417),ID(418)),ID(419),ID(420),ID(421),ID(422),ID(423),ID(424),ID(425),ID(426),ID(427),ID(428),ID(429),ID(430),ID(431),ID(432),ID(433),ID(434)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase) (id: 435 token: UnknownPart(NodePart(OwnExtension(ID(410),ID(411),ID(412),ID(413),ID(414),ID(415),ID(416),None,ID(417),ID(418)),ID(419),ID(420),ID(421),ID(422),ID(423),ID(424),ID(425),ID(426),ID(427),ID(428),ID(429),ID(430),ID(431),ID(432),ID(433),ID(434)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase))
+2024-11-23 19:18:54,056 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 19:19:01,665 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 19:19:01,792 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 19:19:01,802 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unimplemented node type: UnknownPart(NodePart(OwnExtension(ID(2556),ID(2557),ID(2558),ID(2559),ID(2560),ID(2561),ID(2562),None,ID(2563),ID(2564)),ID(2565),ID(2566),ID(2567),ID(2568),ID(2569),ID(2570),ID(2571),ID(2572),ID(2573),ID(2574),ID(2575),ID(2576),ID(2577),ID(2578),ID(2579),ID(2580)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase) (id: 2581 token: UnknownPart(NodePart(OwnExtension(ID(2556),ID(2557),ID(2558),ID(2559),ID(2560),ID(2561),ID(2562),None,ID(2563),ID(2564)),ID(2565),ID(2566),ID(2567),ID(2568),ID(2569),ID(2570),ID(2571),ID(2572),ID(2573),ID(2574),ID(2575),ID(2576),ID(2577),ID(2578),ID(2579),ID(2580)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase))
+2024-11-23 19:19:56,942 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: Cannot read properties of null (reading 'Y')
+2024-11-23 19:20:55,426 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1893272059, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2024-11-23 19:20:55,435 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2024-11-23 19:20:55,435 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2024-11-23 19:20:55,536 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Sat Nov 23 19:20:55 CET 2024      
+2024-11-23 19:20:55,536 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.015 
+2024-11-23 19:20:55,537 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.017  
+2024-11-23 19:20:55,541 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2024-11-23 19:20:55,544 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2024-11-23 19:20:55,545 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 645790
+2024-11-23 19:20:55,546 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 264922
+2024-11-23 19:20:55,546 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2024-11-23 19:20:56,320 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - application requested: default params: Map()
+2024-11-23 19:20:56,320 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - Creating Application: default
+2024-11-23 19:20:56,320 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - remoteAddress 0:0:0:0:0:0:0:1
+2024-11-23 19:20:56,321 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - host          localhost:8080
+2024-11-23 19:20:56,321 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - uri           /app/ws/default
+2024-11-23 19:20:56,457 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1893272059, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2024-11-23 19:20:57,718 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 972461785, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2024-11-23 19:20:58,188 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 972461785, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2024-11-23 19:20:58,256 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 19:20:58,421 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 19:20:58,451 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unimplemented node type: UnknownPart(NodePart(OwnExtension(ID(410),ID(411),ID(412),ID(413),ID(414),ID(415),ID(416),None,ID(417),ID(418)),ID(419),ID(420),ID(421),ID(422),ID(423),ID(424),ID(425),ID(426),ID(427),ID(428),ID(429),ID(430),ID(431),ID(432),ID(433),ID(434)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase) (id: 435 token: UnknownPart(NodePart(OwnExtension(ID(410),ID(411),ID(412),ID(413),ID(414),ID(415),ID(416),None,ID(417),ID(418)),ID(419),ID(420),ID(421),ID(422),ID(423),ID(424),ID(425),ID(426),ID(427),ID(428),ID(429),ID(430),ID(431),ID(432),ID(433),ID(434)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase))
+2024-11-23 19:21:04,137 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 19:21:08,401 [INFO] from play.api.internal.libs.concurrent.CoordinatedShutdownSupport in Thread-23 - Starting synchronous coordinated shutdown with ServerStoppedReason reason and 2147508000 milliseconds timeout
+2024-11-23 19:21:08,405 [INFO] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-5 - Running CoordinatedShutdown with reason [ServerStoppedReason]
+2024-11-23 19:21:08,408 [INFO] from play.core.server.AkkaHttpServer in Thread-23 - Stopping Akka HTTP server...
+2024-11-23 19:21:08,422 [INFO] from play.core.server.AkkaHttpServer in application-akka.actor.internal-dispatcher-14 - Terminating server binding for /[0:0:0:0:0:0:0:0]:8080
+2024-11-23 19:21:08,543 [INFO] from play.core.server.AkkaHttpServer in application-akka.actor.internal-dispatcher-14 - Running provided shutdown stop hooks
+2024-11-23 19:21:08,550 [INFO] from com.jpro.internal.server.JProInitializer$ in application-akka.actor.default-dispatcher-6 - [JPro] -> Server stopped: {running_time: 2m 46.32s, instances_count: 1, views_count: 1, os_name: Windows 10, jpro_version: 2024.4.1, reason: jvm-shutdown}
+2024-11-23 19:21:08,550 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-6 - Closing the server -> used memory: 111 MB  -  free system memory: 363 MB
+2024-11-23 19:23:43,438 [INFO] from com.jpro.activity in scala-execution-context-global-35 - Starting the server
+2024-11-23 19:23:43,448 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 -  *** Starting JPro: https://www.jpro.one/ ***
+2024-11-23 19:23:43,449 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - OS: Windows 10
+2024-11-23 19:23:43,528 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JPro: 2024.4.1
+2024-11-23 19:23:43,528 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - Java version: 22.0.2
+2024-11-23 19:23:43,528 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JVM: 22.0.2 Oracle Corporation
+2024-11-23 19:23:43,534 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JavaFX jar: file:/C:/Users/ZaBaDeV/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro/javafx-graphics-23.0.1-jpro-win.jar
+2024-11-23 19:23:43,540 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - Configuring logging from url: 'jar:file:/C:/Users/ZaBaDeV/.m2/repository/one/jpro/jpro-server_2.12/2024.4.1/jpro-server_2.12-2024.4.1.jar!/logback-jpro-default.xml'
+2024-11-23 19:23:46,066 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 23.0.1-jpro+0
+2024-11-23 19:23:46,236 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - finished init!
+2024-11-23 19:23:46,252 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - [JPro] -> Server started: {start_time: 1732386223436, os_name: Windows 10, jpro_version: 2024.4.1}
+2024-11-23 19:23:46,652 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2024-11-23 19:23:49,123 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2024-11-23 19:23:50,872 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2024-11-23 19:23:50,875 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2024-11-23 19:23:57,592 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-4 - application requested: default params: Map()
+2024-11-23 19:23:57,609 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-4 - Creating Application: default
+2024-11-23 19:23:57,619 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-4 - remoteAddress 0:0:0:0:0:0:0:1
+2024-11-23 19:23:57,619 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-4 - host          localhost:8080
+2024-11-23 19:23:57,619 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-4 - uri           /app/ws/default
+2024-11-23 19:24:02,556 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1351001640, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2024-11-23 19:24:05,015 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1351001640, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2024-11-23 19:24:06,250 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 19:24:06,864 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 19:24:06,893 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unimplemented node type: UnknownPart(NodePart(OwnExtension(ID(410),ID(411),ID(412),ID(413),ID(414),ID(415),ID(416),None,ID(417),ID(418)),ID(419),ID(420),ID(421),ID(422),ID(423),ID(424),ID(425),ID(426),ID(427),ID(428),ID(429),ID(430),ID(431),ID(432),ID(433),ID(434)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase) (id: 435 token: UnknownPart(NodePart(OwnExtension(ID(410),ID(411),ID(412),ID(413),ID(414),ID(415),ID(416),None,ID(417),ID(418)),ID(419),ID(420),ID(421),ID(422),ID(423),ID(424),ID(425),ID(426),ID(427),ID(428),ID(429),ID(430),ID(431),ID(432),ID(433),ID(434)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase))
+2024-11-23 19:24:14,013 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 19:24:47,024 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 19:24:47,217 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 19:24:47,228 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unimplemented node type: UnknownPart(NodePart(OwnExtension(ID(2405),ID(2406),ID(2407),ID(2408),ID(2409),ID(2410),ID(2411),None,ID(2412),ID(2413)),ID(2414),ID(2415),ID(2416),ID(2417),ID(2418),ID(2419),ID(2420),ID(2421),ID(2422),ID(2423),ID(2424),ID(2425),ID(2426),ID(2427),ID(2428),ID(2429)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase) (id: 2430 token: UnknownPart(NodePart(OwnExtension(ID(2405),ID(2406),ID(2407),ID(2408),ID(2409),ID(2410),ID(2411),None,ID(2412),ID(2413)),ID(2414),ID(2415),ID(2416),ID(2417),ID(2418),ID(2419),ID(2420),ID(2421),ID(2422),ID(2423),ID(2424),ID(2425),ID(2426),ID(2427),ID(2428),ID(2429)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase))
+2024-11-23 19:31:42,570 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1351001640, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2024-11-23 19:31:42,584 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2024-11-23 19:31:42,584 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2024-11-23 19:31:42,611 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Sat Nov 23 19:31:42 CET 2024      
+2024-11-23 19:31:42,612 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.002 
+2024-11-23 19:31:42,612 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2024-11-23 19:31:42,614 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2024-11-23 19:31:42,616 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2024-11-23 19:31:42,616 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 490109
+2024-11-23 19:31:42,617 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 157676
+2024-11-23 19:31:42,618 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2024-11-23 19:31:43,597 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1351001640, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2024-11-23 19:32:19,228 [INFO] from com.jpro.activity in scala-execution-context-global-35 - Starting the server
+2024-11-23 19:32:19,236 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 -  *** Starting JPro: https://www.jpro.one/ ***
+2024-11-23 19:32:19,236 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - OS: Windows 10
+2024-11-23 19:32:19,311 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JPro: 2024.4.1
+2024-11-23 19:32:19,311 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - Java version: 22.0.2
+2024-11-23 19:32:19,311 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JVM: 22.0.2 Oracle Corporation
+2024-11-23 19:32:19,336 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - JavaFX jar: file:/C:/Users/ZaBaDeV/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro/javafx-graphics-23.0.1-jpro-win.jar
+2024-11-23 19:32:19,342 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - Configuring logging from url: 'jar:file:/C:/Users/ZaBaDeV/.m2/repository/one/jpro/jpro-server_2.12/2024.4.1/jpro-server_2.12-2024.4.1.jar!/logback-jpro-default.xml'
+2024-11-23 19:32:21,732 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 23.0.1-jpro+0
+2024-11-23 19:32:21,867 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - finished init!
+2024-11-23 19:32:21,876 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-35 - [JPro] -> Server started: {start_time: 1732386739224, os_name: Windows 10, jpro_version: 2024.4.1}
+2024-11-23 19:32:22,383 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2024-11-23 19:32:24,411 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2024-11-23 19:32:26,219 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2024-11-23 19:32:26,222 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2024-11-23 19:32:31,014 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-4 - application requested: default params: Map()
+2024-11-23 19:32:31,028 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-4 - Creating Application: default
+2024-11-23 19:32:31,034 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-4 - remoteAddress 0:0:0:0:0:0:0:1
+2024-11-23 19:32:31,035 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-4 - host          localhost:8080
+2024-11-23 19:32:31,035 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-4 - uri           /app/ws/default
+2024-11-23 19:32:35,213 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1060743802, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2024-11-23 19:32:37,191 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1060743802, browser: Google Chrome 131.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2024-11-23 19:32:37,997 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 19:32:38,688 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 19:32:38,713 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unimplemented node type: UnknownPart(NodePart(OwnExtension(ID(410),ID(411),ID(412),ID(413),ID(414),ID(415),ID(416),None,ID(417),ID(418)),ID(419),ID(420),ID(421),ID(422),ID(423),ID(424),ID(425),ID(426),ID(427),ID(428),ID(429),ID(430),ID(431),ID(432),ID(433),ID(434)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase) (id: 435 token: UnknownPart(NodePart(OwnExtension(ID(410),ID(411),ID(412),ID(413),ID(414),ID(415),ID(416),None,ID(417),ID(418)),ID(419),ID(420),ID(421),ID(422),ID(423),ID(424),ID(425),ID(426),ID(427),ID(428),ID(429),ID(430),ID(431),ID(432),ID(433),ID(434)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase))
+2024-11-23 19:32:47,686 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 19:32:56,401 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 19:32:56,543 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 19:32:56,551 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unimplemented node type: UnknownPart(NodePart(OwnExtension(ID(2577),ID(2578),ID(2579),ID(2580),ID(2581),ID(2582),ID(2583),None,ID(2584),ID(2585)),ID(2586),ID(2587),ID(2588),ID(2589),ID(2590),ID(2591),ID(2592),ID(2593),ID(2594),ID(2595),ID(2596),ID(2597),ID(2598),ID(2599),ID(2600),ID(2601)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase) (id: 2602 token: UnknownPart(NodePart(OwnExtension(ID(2577),ID(2578),ID(2579),ID(2580),ID(2581),ID(2582),ID(2583),None,ID(2584),ID(2585)),ID(2586),ID(2587),ID(2588),ID(2589),ID(2590),ID(2591),ID(2592),ID(2593),ID(2594),ID(2595),ID(2596),ID(2597),ID(2598),ID(2599),ID(2600),ID(2601)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase))
+2024-11-23 19:32:58,223 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 19:33:01,409 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 19:33:01,534 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unknown blendmode: DSRC_ATOP
+2024-11-23 19:33:01,541 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: unimplemented node type: UnknownPart(NodePart(OwnExtension(ID(4680),ID(4681),ID(4682),ID(4683),ID(4684),ID(4685),ID(4686),None,ID(4687),ID(4688)),ID(4689),ID(4690),ID(4691),ID(4692),ID(4693),ID(4694),ID(4695),ID(4696),ID(4697),ID(4698),ID(4699),ID(4700),ID(4701),ID(4702),ID(4703),ID(4704)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase) (id: 4705 token: UnknownPart(NodePart(OwnExtension(ID(4680),ID(4681),ID(4682),ID(4683),ID(4684),ID(4685),ID(4686),None,ID(4687),ID(4688)),ID(4689),ID(4690),ID(4691),ID(4692),ID(4693),ID(4694),ID(4695),ID(4696),ID(4697),ID(4698),ID(4699),ID(4700),ID(4701),ID(4702),ID(4703),ID(4704)),class: javafx.scene.AmbientLight ... javafx.scene.LightBase))
+2024-11-23 19:33:26,172 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: Cannot read properties of null (reading 'Y')
+2024-11-23 19:33:27,514 [INFO] from play.api.internal.libs.concurrent.CoordinatedShutdownSupport in Thread-23 - Starting synchronous coordinated shutdown with ServerStoppedReason reason and 2147508000 milliseconds timeout
+2024-11-23 19:33:27,519 [INFO] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-16 - Running CoordinatedShutdown with reason [ServerStoppedReason]
+2024-11-23 19:33:27,523 [INFO] from play.core.server.AkkaHttpServer in Thread-23 - Stopping Akka HTTP server...
+2024-11-23 19:33:27,546 [INFO] from play.core.server.AkkaHttpServer in application-akka.actor.internal-dispatcher-18 - Terminating server binding for /[0:0:0:0:0:0:0:0]:8080
+2024-11-23 19:33:27,585 [INFO] from play.core.server.AkkaHttpServer in application-akka.actor.internal-dispatcher-18 - Running provided shutdown stop hooks
+2024-11-23 19:33:27,594 [INFO] from com.jpro.internal.server.JProInitializer$ in application-akka.actor.default-dispatcher-9 - [JPro] -> Server stopped: {running_time: 1m 8.275s, instances_count: 1, views_count: 1, os_name: Windows 10, jpro_version: 2024.4.1, reason: jvm-shutdown}
+2024-11-23 19:33:27,594 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-9 - Closing the server -> used memory: 92 MB  -  free system memory: 369 MB

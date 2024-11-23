@@ -12,11 +12,11 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" cache="true" cacheHint="QUALITY" fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myproyectodam.demo.PrimaryController">
+<VBox alignment="CENTER" cache="true" cacheHint="QUALITY" fillWidth="false" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myproyectodam.demo.PrimaryController">
    <children>
-      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0">
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity">
          <children>
-            <ImageView blendMode="SRC_ATOP" cache="true" cacheHint="SPEED" fitHeight="1080.0" fitWidth="1920.0" focusTraversable="true" pickOnBounds="true">
+            <ImageView blendMode="SRC_ATOP" cache="true" cacheHint="SPEED" fitHeight="720.0" fitWidth="1366.0" focusTraversable="true" pickOnBounds="true">
                <cursor>
                   <Cursor fx:constant="DEFAULT" />
                </cursor>
@@ -24,9 +24,9 @@
                   <Image url="@../../../InterfazBase/FondoBase.png" />
                </image>
             </ImageView>
-            <Button layoutX="140.0" layoutY="753.0" mnemonicParsing="false" onMouseClicked="#exit" text="Salir" />
+            <Button layoutX="104.0" layoutY="552.0" mnemonicParsing="false" onMouseClicked="#exit" text="Salir" />
             <Pane fx:id="PanelLogo" layoutX="104.0" layoutY="3.0" onMouseClicked="#logo" opacity="0.0" prefHeight="151.0" prefWidth="143.0" />
-            <GridPane alignment="CENTER_LEFT" layoutX="367.0" layoutY="203.0" prefHeight="872.0" prefWidth="1552.0">
+            <GridPane alignment="CENTER_LEFT" layoutX="289.0" layoutY="167.0" prefHeight="528.0" prefWidth="1052.0">
               <columnConstraints>
                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -37,32 +37,32 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <ImageView fx:id="Mini0" nodeOrientation="INHERIT" onMouseClicked="#switchToSecondary" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                  <ImageView fx:id="Mini0" fitHeight="250.0" fitWidth="330.0" nodeOrientation="INHERIT" onMouseClicked="#switchToSecondary" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
                      <image>
                         <Image url="@../../../InterfazHome/Miniaturas%20simuladores/HomeButton0.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Mini4" nodeOrientation="INHERIT" onMouseClicked="#switchToSenary" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                  <ImageView fx:id="Mini4" fitHeight="250.0" fitWidth="330.0" nodeOrientation="INHERIT" onMouseClicked="#switchToSenary" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
                      <image>
                         <Image url="@../../../InterfazHome/Miniaturas%20simuladores/HomeButton4.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Mini3" nodeOrientation="INHERIT" onMouseClicked="#switchToQuinary" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                  <ImageView fx:id="Mini3" fitHeight="250.0" fitWidth="330.0" nodeOrientation="INHERIT" onMouseClicked="#switchToQuinary" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
                      <image>
                         <Image url="@../../../InterfazHome/Miniaturas%20simuladores/HomeButton3.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Mini2" nodeOrientation="INHERIT" onMouseClicked="#switchToQuaternary" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                  <ImageView fx:id="Mini2" fitHeight="250.0" fitWidth="330.0" nodeOrientation="INHERIT" onMouseClicked="#switchToQuaternary" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
                      <image>
                         <Image url="@../../../InterfazHome/Miniaturas%20simuladores/HomeButton2.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Mini1" nodeOrientation="INHERIT" onMouseClicked="#switchToTertiary" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                  <ImageView fx:id="Mini1" fitHeight="250.0" fitWidth="330.0" nodeOrientation="INHERIT" onMouseClicked="#switchToTertiary" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
                      <image>
                         <Image url="@../../../InterfazHome/Miniaturas%20simuladores/HomeButton1.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Mini5" nodeOrientation="INHERIT" onMouseClicked="#switchToSeptenary" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                  <ImageView fx:id="Mini5" fitHeight="250.0" fitWidth="330.0" nodeOrientation="INHERIT" onMouseClicked="#switchToSeptenary" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
                      <image>
                         <Image url="@../../../InterfazHome/Miniaturas%20simuladores/HomeButton5.png" />
                      </image>
@@ -70,74 +70,74 @@
                   <AmbientLight color="CHARTREUSE" lightOn="true" />
                </children>
             </GridPane>
-            <FlowPane alignment="CENTER" columnHalignment="CENTER" layoutX="367.0" layoutY="70.0" prefHeight="128.0" prefWidth="1552.0">
+            <FlowPane alignment="CENTER" columnHalignment="CENTER" layoutX="263.0" layoutY="37.0" prefHeight="111.0" prefWidth="1089.0">
                <children>
-                  <ImageView fx:id="Icon13" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="Icon13" fitHeight="80.0" fitWidth="80.0" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../InterfazBase/Escudos/LauncherButton8.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Icon7" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="Icon7" fitHeight="80.0" fitWidth="80.0" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../InterfazBase/Escudos/LauncherButton0.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Icon6" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="Icon6" fitHeight="80.0" fitWidth="80.0" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../InterfazBase/Escudos/LauncherButton1.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Icon5" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="Icon5" fitHeight="80.0" fitWidth="80.0" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../InterfazBase/Escudos/LauncherButton2.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Icon4" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="Icon4" fitHeight="80.0" fitWidth="80.0" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../InterfazBase/Escudos/LauncherButton3.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Icon0" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="Icon0" fitHeight="80.0" fitWidth="80.0" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../InterfazBase/Escudos/LauncherButton4.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Icon12" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="Icon12" fitHeight="80.0" fitWidth="80.0" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../InterfazBase/Escudos/LauncherButton5.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Icon8" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="Icon8" fitHeight="80.0" fitWidth="80.0" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../InterfazBase/Escudos/LauncherButton6.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Icon9" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="Icon9" fitHeight="80.0" fitWidth="80.0" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../InterfazBase/Escudos/LauncherButton7.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Icon10" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="Icon10" fitHeight="80.0" fitWidth="80.0" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../InterfazBase/Escudos/LauncherButton13.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Icon2" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="Icon2" fitHeight="80.0" fitWidth="80.0" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../InterfazBase/Escudos/LauncherButton9.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Icon11" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="Icon11" fitHeight="80.0" fitWidth="80.0" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../InterfazBase/Escudos/LauncherButton10.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Icon1" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="Icon1" fitHeight="80.0" fitWidth="80.0" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../InterfazBase/Escudos/LauncherButton11.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="Icon3" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="Icon3" fitHeight="80.0" fitWidth="80.0" onMouseEntered="#mouseEnterZoom" onMouseExited="#mouseExitReset" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../InterfazBase/Escudos/LauncherButton12.png" />
                      </image>

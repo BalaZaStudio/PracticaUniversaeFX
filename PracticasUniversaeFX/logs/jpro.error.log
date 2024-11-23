@@ -1,0 +1,50 @@
+2024-11-23 18:40:32,690 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 18:45:04,463 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 18:45:15,097 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 18:45:18,265 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: Cannot read properties of null (reading 'Y')
+2024-11-23 18:48:42,754 [ERROR] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Error while starting application: 
+javafx.fxml.LoadException: Pane is not a valid type.
+/C:/Users/ZaBaDeV/Documents/GitHub/PracticaUniversaeFX/PracticasUniversaeFX/target/classes/com/myproyectodam/demo/Primary.fxml:27
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2723)
+	at javafx.fxml.FXMLLoader.createElement(FXMLLoader.java:2925)
+	at javafx.fxml.FXMLLoader.processStartElement(FXMLLoader.java:2855)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2654)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2568)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2536)
+	at com.myproyectodam.demo.App.loadFXML(App.java:60)
+	at com.myproyectodam.demo.App.start(App.java:24)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1(ApplicationStarter.scala:133)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1$adapted(ApplicationStarter.scala:130)
+	at com.jpro.internal.communicator.InstanceImpl.start(InstanceImpl.scala:49)
+	at com.jpro.internal.communicator.InstanceImpl.$anonfun$new$2(InstanceImpl.scala:41)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$lzycompute$1(CoreTimeEvent.scala:147)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$1(CoreTimeEvent.scala:145)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2$adapted(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTypesBindable$BindableImpl.$anonfun$triggerOnChange$3(CoreTypesBindable.scala:208)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl(CoreScheduler.scala:73)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl$(CoreScheduler.scala:52)
+	at simplefx.cores.standard.Core.runSchedulerImpl(Core.scala:9)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop(CoreScheduler.scala:44)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop$(CoreScheduler.scala:42)
+	at simplefx.cores.standard.Core.tryStartSchedulerStop(Core.scala:9)
+	at com.jpro.internal.server.ViewSerializerActor$$anonfun$handleFirstClientMessage$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:74)
+	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-11-23 19:18:42,647 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 19:19:01,665 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 19:19:56,942 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: Cannot read properties of null (reading 'Y')
+2024-11-23 19:20:58,256 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 19:24:06,250 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 19:24:47,024 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 19:32:37,997 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 19:32:56,401 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 19:33:01,409 [ERROR] from com.jpro.meta.stream.FXSerializer$$anon$1 in JavaFX Application Thread - couldn't wrap node ... class: javafx.scene.AmbientLight ... javafx.scene.LightBase
+2024-11-23 19:33:26,172 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: Cannot read properties of null (reading 'Y')
